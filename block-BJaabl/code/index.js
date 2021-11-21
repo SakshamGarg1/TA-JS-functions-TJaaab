@@ -5,6 +5,7 @@ function sayHello(name){
 alert('hello ${name}!')
 }
 
+
 /*
 2. Create a function named `getFullName` that accepts two parameter `firstName` and `lastName` and returns
 fullName.
