@@ -54,7 +54,9 @@ function addTwoNumbers(){
 */
 function getTable(){
   let num=+prompt(`enter a number`);
-  for (le)
+  for (let i=1; i<=10;i++){
+  console.log(`${num} * ${i}=${num * i}`);
+  }
 }
 
 
@@ -68,8 +70,11 @@ function getTable(){
   
 */
 function getTable(){
-  let num=+prompt(`enter a number`);
-  for (le)
+  let num=+prompt(`enter a year`);
+  if(num/4 ===0){alert( '${year}is a leap year');}
+  else{
+  alert('not a leap year');
+  }
 }
   
 
@@ -80,7 +85,11 @@ function getTable(){
   - Alert `The factorial of [number] is [factorial]`
 
 */
-function getTable(){
+function getFactorial(){
   let num=+prompt(`enter a number`);
-  for (le)
+  let final = 1;
+  for (let i=num; i>=1;i--){
+  final= final*i;}
+  alert(`The factorial of ${num} is ${final}`);
+  
 }
