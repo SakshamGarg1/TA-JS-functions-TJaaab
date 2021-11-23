@@ -40,20 +40,33 @@ Write a function named `addOne` that accepts a number, adds one to the given val
 Do the following with above problem.
 */
 
-// - Write a Function Declaration
 
+// - Write a Function Declaration
+function addOne(n)={
+return n+1;}
 
 // - Write a Function Expression
+function addOne(n)={
+return n+1;}
 
 // - Write an Arrow Function without curly brackets(if possible)
+let addOne=(n)=>n+1;
+
 
 // - Write an Arrow Function with curly brackets
+let addOne=(n)=>{
+  return+1
+};
+
 
 // - Execute the function
+addOne();
 
 // - Execute the function and store the return value in a variable.
+let num = addOne();
 
-// - What is the typeof returnValue
+// - What is the typeof returnValue'
+//number
 
 /* 2. Subtract one
 
@@ -150,17 +163,47 @@ Do the following with above problem.
 */
 
 // - Write a Function Declaration
+function oddOrEven(num) ={
+if(num%===2){'no is even'; 
+} 
+  else{
+  return 'no is odd';
+}
+}
 
 // - Write an anonymous Function Expression
 
+let oddOrEven= function (num) ={
+if(num%===2){'no is even'; 
+} 
+  else{
+  return 'no is odd';
+}
+}
 // - Write an named Function Expression
+let oddOrEven= function isOdd(num) ={
+if(num%===2){'no is even'; 
+} 
+  else{
+  return 'no is odd';
+}
+}
 
-// - Write an Arrow Function without curly brackets (hint: use ternary operator)
+// - Write an Arrow Function curly brackets (hint: use ternary operator)
+let oddOrEven=(num) ={
+if(num%===2){'no is even'; 
+} 
+  else{
+  return 'no is odd';
+}
+};
 
-// - Write an Arrow Function with curly brackets
+// - Write an Arrow Function without curly brackets(hint: use ternary operator)
+let oddOrEven = (num)=> num% 2===0 ? 'no is even':'no is odd';
 
 // - Execute the function
-
+oddOrEven(23)
 // - Execute the function and store the return value in a variable
-
+let oddOrEven=oddOrEven()
 // - What is the typeof returnValue
+//even
